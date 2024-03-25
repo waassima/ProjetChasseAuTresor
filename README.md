@@ -1,4 +1,3 @@
-# ProjetChasseAuTresor
 # Projet Chasse au Trésor
 
 ## Description
