@@ -140,9 +140,7 @@ public class ChasseAuTresor {
         Carte carte = null;
         Aventurier aventurier = null;
         Path repertoireCourant = Paths.get("").toAbsolutePath();
-       // String filePath = "C:\\Users\\Wassima\\eclipse-workspace\\Chasse_au_tresor\\src\\Input.txt";
-        // Lecture du fichier d'entrée
-        
+	    
         // Demander à l'utilisateur de saisir le chemin du fichier input.txt
         System.out.println("Veuillez saisir le chemin du fichier input.txt :");
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -153,6 +151,8 @@ public class ChasseAuTresor {
             e.printStackTrace();
             return;
         }
+	    
+	// Lecture du fichier d'entrée
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             String line;
             
